@@ -1,5 +1,5 @@
 # Movie Recommendation System 🎬
-![Movie Recommendation Output](https://github.com/Prachisinha2005/Movie_Recommendation_system/blob/main/images/output.png)
+![Movie Recommendation Output](https://github.com/Prachisinha2005/Movie_Recommendation_system/blob/main/https://raw.githubusercontent.com/Prachisinha2005/Movie_Recommendation_system/refs/heads/main/movie%20r%20s.webp)
 
 
 
