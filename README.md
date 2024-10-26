@@ -1,4 +1,7 @@
 # Movie Recommendation System 🎬
+![Movie Recommendation Output](https://github.com/Prachisinha2005/Movie_Recommendation_system/blob/main/images/output.png)
+
+
 
 This is a Python-based movie recommendation system that suggests movies similar to a user's favorite movie. The system uses a similarity matrix to compare movies and recommend the most relevant ones.
 
