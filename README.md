@@ -21,6 +21,9 @@ This is a Python-based movie recommendation system that suggests movies similar 
 3. **Calculate Similarity**: Using a precomputed similarity matrix, the system calculates similarity scores for other movies.
 4. **Recommendation**: It then displays the top 30 similar movies based on the similarity score.
 
+![Movie Recommendation Example](https://raw.githubusercontent.com/Prachisinha2005/Movie_Recommendation_system/refs/heads/main/1718046849736-Untitled%20design%20-%202024-06-11T004357.webp)
+
+
 ## Requirements 🛠️
 Before running the code, install the following dependencies:
 
