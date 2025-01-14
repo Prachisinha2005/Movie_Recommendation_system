@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Recommendations</h1>
+            <p class="subtitle">Based on: {{ movie }}</p>
+            
+            <div class="recommendations">
+                {% for movie in recommendations %}
+                <div class="movie-card">
+                    <h3>{{ movie.title }}</h3>
+                    <div class="movie-stats">
+                        <span class="rating">Rating: {{ movie.vote_average }}/10</span>
+                        <span class="similarity">Match: {{ movie.similarity_score }}%</span>
+                    </div>
+                    <p class="movie-overview">{{ movie.overview[:200] }}...</p>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <a href="{{ url_for('home') }}" class="back-button">Try Another Movie</a>
+        </div>
+    </div>
+</body>
+</html> 
